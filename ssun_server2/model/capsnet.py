@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
-from ssun.config import Config
+from ssun_server2.config import Config
 class Linear(nn.Module):
     def __init__(self, in_features=226, out_features=904):
         super(Linear, self).__init__()

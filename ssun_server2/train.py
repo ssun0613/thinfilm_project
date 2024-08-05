@@ -22,7 +22,7 @@ def setup(opt):
         device = torch.device("cpu")
     # -------------------------------------------- setup dataload --------------------------------------------
     if not opt.debugging:
-        from ssun.data.dataload import thinfilm
+        from ssun_server2.data.dataload import thinfilm
     else:
         from data.dataload import thinfilm
 

@@ -5,7 +5,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
-from ssun.config import Config
+from ssun_server2.config import Config
 class Conv(nn.Module):
     def __init__(self, in_channels=1, out_channels=256):
         super(Conv, self).__init__()
